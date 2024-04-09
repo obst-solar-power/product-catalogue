@@ -1,0 +1,173 @@
+[
+    {
+        "_id" : 1,
+        "type": "storage",
+        "title" : "5KW+10KWH All-In-One Stackable Energy Storage System",
+        "url" : "/products/stackable-2.png",
+        "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
+        "price" : 1000,
+        "features" : {
+            "inverter_Parameters" : [
+                ["Max PV Power", "6000W"],
+                ["Max PV input voltage", "450V"],
+                ["MPPT voltage range", "120~430V"],
+                ["Max PV charging current", "100A"],
+                ["AC rated input-power", "5000W"],
+                ["input Voltage / Current", "210~240V/20A"],
+                ["AC rated output power / Current ", "5000W"],
+                ["AC Output Voltage / Current", "210~240V /20A" ],
+                ["Output frequencies", "50 ~ 60Hz"],
+                ["efficiency", "93%"]
+            ],
+            "Battery_Parameters" : [
+                ["Battery type", "LFP"],
+                ["Rated Power", "5KWH*2" ],
+                ["Voltage range", "42 ~ 58.6V"],
+                ["Max charging discharging current", "50A / 100A"]
+            ]
+        }
+    },
+    {
+        "_id" : 2,
+        "type": "storage",
+        "title" : "5KW+15KWH All-In-One Stackable Energy Storage System",
+        "url" : "/products/stackable-3.png",
+        "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
+        "price" : 1000,
+        "features" : {
+            "inverter_Parameters" : [
+                ["Max PV Power", "6000W"],
+                ["Max PV input voltage", "450V"],
+                ["MPPT voltage range", "120~430V"],
+                ["Max PV charging current", "100A"],
+                ["AC rated input-power", "5000W"],
+                ["input Voltage / Current", "210~240V/20A"],
+                ["AC rated output power / Current ", "5000W"],
+                ["AC Output Voltage / Current", "210~240V /20A" ],
+                ["Output frequencies", "50 ~ 60Hz"],
+                ["efficiency", "93%"]
+            ],
+            "Battery_Parameters" : [
+                ["Battery type", "LFP"],
+                ["Rated Power", "5KWH*3" ],
+                ["Voltage range", "42 ~ 58.6V"],
+                ["Max charging discharging current", "50A / 100A"]
+            ]
+        }
+    },
+    {
+        "_id" : 3,
+        "type": "storage",
+        "title" : "10KWH Wall-mounted Energy Storage System",
+        "url" : "/products/wall-mounted-10.png",
+        "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
+        "price" : 1000,
+        "features" : [
+            ["Cell Type", "LFP"],
+            ["Cell Quantity", "16"],
+            ["Rated Voltage", "51.2V"],
+            ["Voltage Range", "44.8~57.6V"],
+            ["Charging Current", "50A"],
+            ["Discharging Current", "100A"],
+            ["Rated Power", "5.22Kwh"],
+            ["Dimensions", "680*450*160mm"],
+            ["Weight", "49kg"],
+            ["Communication Protocol", "CAN 485"],
+            ["Protection Level", "IP65"],
+            ["Working Temperature", "-10 ~ 55C"],
+            ["Relative humidity", "5% ~ 95%"],
+            ["Cooling method", "Natural cooling"],
+            ["Installation model", "Ground/Wall-Mounted"],
+            ["Design Life", "10 years"],
+            ["Certificate", "IEC62619 CE RHOS MDS"],
+            ["Matched Inverter", "SMA/Growatt/Deye, etc"]
+        ]
+    },
+    {
+        "_id" : 4,
+        "type": "storage",
+        "title" : "5KWH Wall-mounted Energy Storage System",
+        "url" : "/products/wall-mounted-5k.png",
+        "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
+        "price" : 1000,
+        "features" : [
+            ["Cell Type", "LFP"],
+            ["Cell Quantity", "32"],
+            ["Rated Voltage", "51.2V"],
+            ["Voltage Range", "44.8~57.6V"],
+            ["Charging Current", "50A"],
+            ["Discharging Current", "100A"],
+            ["Rated Power", "10.44Kwh"],
+            ["Dimensions", "1100*480*160mm"],
+            ["Weight", "95kg"],
+            ["Communication Protocol", "CAN 485"],
+            ["Protection Level", "IP65"],
+            ["Working Temperature", "-10 ~ 55C"],
+            ["Relative humidity", "5% ~ 95%"],
+            ["Cooling method", "Natural cooling"],
+            ["Installation model", "Ground/Wall-Mounted"],
+            ["Design Life", "10 years"],
+            ["Certificate", "IEC62619 CE RHOS MDS"],
+            ["Matched Inverter", "SMA/Growatt/Deye, etc"]
+        ]
+    },
+    {
+        "_id" : 5,
+        "type": "storage",
+        "title" : "5KW Wall-Mounted Hybrid Inverter",
+        "url" : "/products/5kw-hybrid.png",
+        "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
+        "price" : 1000,
+        "features":{
+            "_" :[
+                ["Rated Power", "3500VA/3500W"],
+                ["System DC Voltage", "48V DC"],
+                ["System DC Voltage", "yes, upto 6 units"],
+                ["Monitoring Option", "WiFi or GPRS"]
+            ],
+            "Inverter_Output":[
+                ["AC Voltage", "220-230V-240V"],
+                ["Surge Power", "7000VA"],
+                ["Peak Efficiency", "93%"],
+                ["Transfer Time", "10ms (For personal computer) & 20ms (For Home Appliances)"],
+                ["Waveform", "Pure Sine"]
+            ],
+            "Solar_Charger_&_AC_charger" : [
+                ["PV Open Voltage", "450V DC"],
+                ["PV Array Power", "4500w"],
+                ["Operating Voltage MPPT Range", "120-430V"],
+                ["Battery Overcharge Protection", "60V"],
+                ["MAX.solar Charge Current", "80A"],
+                ["MAX.AC Charge Current", "60A"]
+            ],
+            "Physical" : [
+                ["Dimension", "470*320*135mm"],
+                ["Net Weight", "11.5Kg"],
+                ["Communication Interface", "USB/CAN/RS485"]
+            ],
+            "Environment":[
+                ["Humidity", "5 - 95% Relative Humidity(Non-condensing"],
+                ["Storage", "-15℃-60℃"]
+            ]
+        }
+
+    },
+    {
+        "_id" : 6,
+        "type": "storage",
+        "title" : "Solar Panel",
+        "url" : "/products/panel.png",
+        "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
+        "price" : 1000,
+        "features" : [
+            ["Maximum Power (Pmax)", "550W"],
+            ["Module Efficiency  (%)", "21.30%"],
+            ["Rated Voltage", "51.2V"],
+            ["Open Circuit Voltage  (Voc)", "49.95V"],
+            ["Short Circuit Current  (Isc)", "14.05A"],
+            ["Voltage at Max. Power  (Pmp)", "41.97V"],
+            ["Current at Max. Mower  (Imp)", "13.11A"],
+            ["Power Tolerance", ""]
+        ]
+    }
+]
