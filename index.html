@@ -3,11 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./obst_favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+    <link rel="manifest" href="./manifest.json">
     <title>OBST product catalogue</title>
+    <meta name="theme-color" content="#ffffff">
   </head>
   <body>
-    <div id="root" class="bg-white dark:bg-red-500"></div>
+    <div id="root" class="bg-white"></div>
     <script type="module" src="/src/main.jsx"></script>
+
+    <!-- <script>
+      if("serviceWorker" in navigator){
+        window.addEventListener("load", ()=>{
+          navigator.serviceWorker.register("./serviceworker.js").then((reg)=>{
+            console.log("Service worker registered")
+          }).catch(e=>{
+            console.log("Error in service worker", err)
+          })
+        })
+      }
+    </script> -->
   </body>
 </html>

@@ -12,17 +12,17 @@ const Product = function () {
 
   const renderDetails = function (data) {
     if (Array.isArray(data.features)) {
-      return data.features.map(feature => <FeatureRows details={feature} />)
+      return data.features.map((feature,i) => <FeatureRows details={feature} key={i}/>)
     }
     const detailsArray = []
     for (let props in data.features) {
       detailsArray.push(
-        <div className="text-slate-500 flex justify-between p-3 text-lg sm:text-2xl">
+        <div className="text-slate-500 flex justify-between p-3 text-lg sm:text-2xl" key={props}>
           <p className="uppercase font-normal text-gray-600"> ~ {props.replace("_", " ")}</p>
         </div>
           )
-          data.features[props].forEach(detail=>{
-            detailsArray.push(<FeatureRows details={detail} />)
+          data.features[props].forEach((detail,i)=>{
+            detailsArray.push(<FeatureRows details={detail} key={props+i} />)
           })
     }
     return detailsArray
@@ -31,7 +31,7 @@ const Product = function () {
     <>
       <div className="container mx-auto max-w-[1000px]">
         <div className="my-10 border-2 border-gray-100 p-5 h-[35vh] flex items-center justify-center">
-          
+
           <img src={product.url} className="object-bottom object-cover h-[90%] " alt="an image of one of obst products" />
         </div>
         <div className="sm:p-10  mx-auto">
@@ -40,7 +40,7 @@ const Product = function () {
               {product.title}
             </h1>
           </div>
-          <div className="border-x border-slate-300 [&>div]:border-b ">
+          <div className="border-x border-slate-300 [&>div]:border-b">
             <div className="text-black font-normal py-3 px-3 text-2xl"> Main Parameter</div>
             {renderDetails(product)}
           </div>

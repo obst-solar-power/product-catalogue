@@ -169,5 +169,81 @@
             ["Current at Max. Mower  (Imp)", "13.11A"],
             ["Power Tolerance", ""]
         ]
+    },
+    {
+        "_id" : 7,
+        "type": "light",
+        "title" : "Solar street light",
+        "url" : "/products/panel.png",
+        "price" : 100.65,
+        "features" : [
+            ["Lumen(LM)", "4000LM"]			,
+            ["Colour Tempreture","6000K ~6500K（it can be customized）"]	,
+            ["Li-ion Battery"	,	"25ah   3.2v"],
+            ["Solar Panel","6V 25W  mono panel"	],
+            ["Install Pole diameter","60-65mm"],
+            ["Mounting Height","4~5m （Suggest install between space10-20m）"],	
+            ["Solar Charging Time","6-8 hours by bright sunlight"],	
+            ["Cloudy/Rainy days","2-3Cloudy/Rainy days"],
+            ["Material","High Class Aluminum"] 	,
+            ["Product Size","640*240*155.5mm"],
+            ["LED Lamp","100 PCS"],
+            ["Motion sensor","Yes（Microwave Sensor）"],
+            ["Remote Control",	"NO"],
+            ["Waterproof","IP66"],
+            ["Working Tempreture",		"-25℃ to 65℃" ]	,
+            ["Certificates","CE、ROHS、IP65"],	
+            ["Warranty", "2 Years" ]
+        ]
+    },{
+        "_id" : 8,
+        "type": "light",
+        "title" : "Solar street light",
+        "url" : "/products/panel.png",
+        "price" : 132.12,
+        "features":[
+            ["Lumen(LM)", "5000LM"]	,
+            ["Colour Tempreture",		"6000K ~6500K（it can be customized"],	
+            ["Li-ion Battery",		"35AH 3.2V"	],
+            ["Solar Panel",		"6V 35W  mono panel"]	,
+            ["Install Pole diameter", "60-65mm"]	,
+            ["Mounting Height",	"4~6m （Suggest install between space10-20m）"],	
+            ["Solar Charging Time","6-8 hours by bright sunlight"]	,
+            ["Cloudy/Rainy days",		"2-3Cloudy/Rainy days"	],
+            ["Material", "High Class Aluminum "]	,
+            ["Product Size", "820*240*155.5mm"],
+            ["LED Lamp" ,"150 PCS"]	,
+            ["Motion sensor"	,"Yes（Microwave Sensor）"	],
+            ["Remote Control",		"NO"]	,
+            ["Waterproof",	"IP66"]	,
+            ["Working Tempreture", "-25℃ to 65℃"]	,
+            ["Certificates" ,"CE、ROHS、IP65"],	
+            ["Warranty",	"2  Years"]
+			        ]
+    },{
+        "_id" : 9,
+        "type": "light",
+        "title" : "Solar street light",
+        "url" : "/products/panel.png",
+        "price" : 151.09,
+        "features":[
+            [" Lumen(LM)", "6000LM"],	
+            ["Colour Tempreture"	,"6000K ~6500K（it can be customized）"],	
+            ["Li-ion Battery",	"40AH   3.2V"],	
+            ["Solar Panel"	,"6V 40W  mono panel"],	
+            ["Install Pole diameter", "60-65mm"],	
+            ["Mounting Height"	,"4~6m （Suggest install between space10-20m）"],	
+            ["Solar Charging Time", "6-8 hours by bright sunlight"],	
+            ["Cloudy/Rainy days", "2-3Cloudy/Rainy days"],
+            ["Material" ,"High Class Aluminum"] ,	
+            ["Product Size" , "1000*240*155.5mm"] ,	
+            ["LED Lamp", "200 PCS"]	,
+            ["Motion sensor","Yes（Microwave Sensor）"]	,
+            ["Remote Control", "NO"],
+            ["Waterproof","IP66"],
+            ["Working Tempreture", "-25℃ to 65℃ "]	,
+            ["Certificates","CE、ROHS、IP65"]	,
+            ["Warranty"	,"3 Years"]
+]
     }
 ]
