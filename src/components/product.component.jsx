@@ -10,7 +10,7 @@ const ProductList = function({product}){
            <div className="bg-slate-100 p-3 px-5 text-center">
                 <h1 className="text-md font-medium mb-3 text-2xl"> {product.title}</h1>
                 {/* <p className="text-base font-normal ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse </p> */}
-                <p className="font-semibold my-2 text-2xl">${product.price.toLocaleString()}</p>
+                {/* <p className="font-semibold my-2 text-2xl">${product.price.toLocaleString()}</p> */}
            </div>
            <Link to={"/product/"+product._id} className="font-semibold py-4 block text-white w-full text-center hover:bg-[#0f2745]/90 bg-[#0f2745] rounded-lg ">
                 View

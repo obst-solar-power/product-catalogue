@@ -173,8 +173,8 @@
     {
         "_id" : 7,
         "type": "light",
-        "title" : "Solar street light",
-        "url" : "/products/panel.png",
+        "title" : "4000LM All-in-one Solar street light",
+        "url" : "/products/street-light-2.png",
         "price" : 100.65,
         "features" : [
             ["Lumen(LM)", "4000LM"]			,
@@ -198,8 +198,8 @@
     },{
         "_id" : 8,
         "type": "light",
-        "title" : "Solar street light",
-        "url" : "/products/panel.png",
+        "title" : "5000LM All-in-one Solar street light",
+        "url" : "/products/street-light-3.png",
         "price" : 132.12,
         "features":[
             ["Lumen(LM)", "5000LM"]	,
@@ -223,8 +223,8 @@
     },{
         "_id" : 9,
         "type": "light",
-        "title" : "Solar street light",
-        "url" : "/products/panel.png",
+        "title" : "6000LM All-in-one solar Solar street light",
+        "url" : "/products/street-light-4.png",
         "price" : 151.09,
         "features":[
             [" Lumen(LM)", "6000LM"],	
